@@ -1,0 +1,4 @@
+{
+  "err.identity.authentication.handler.login.user_not_found": "User not found",
+  "err.identity.authentication.handler.forgotpassword.no_such_login_user": "No such login user"
+}

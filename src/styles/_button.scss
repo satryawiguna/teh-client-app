@@ -1,0 +1,482 @@
+@mixin button-default-styles {
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-alternate-styles {
+  @apply py-2.5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white border border-gray-200 hover:bg-gray-100 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-dark-styles {
+  @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-light-styles {
+  @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-green-styles {
+  @apply focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-red-styles {
+  @apply focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-yellow-styles {
+  @apply focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.night {
+    @apply dark:focus:ring-yellow-900 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400;
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@mixin button-purple-styles {
+  @apply focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mb-2;
+
+  &.x-small {
+    @apply px-3 py-2 text-xs;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.small {
+    @apply px-3 py-2 text-sm;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.large {
+    @apply px-5 py-3 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.x-large {
+    @apply px-6 py-3.5 text-base;
+
+    &.disabled {
+      @apply cursor-not-allowed opacity-50;
+    }
+  }
+
+  &.night {
+    @apply dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900;
+    @apply dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900;
+  }
+
+  &.disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+.btn-default {
+  &.default {
+    @include button-default-styles;
+  }
+
+  &.pills {
+    @include button-default-styles;
+    @apply rounded-full text-center;
+  }
+
+  &.outline {
+    @include button-default-styles;
+    @apply text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500;
+  }
+}
+
+.btn-alternative {
+  &.default {
+    @include button-alternate-styles;
+  }
+
+  &.pills {
+    @include button-alternate-styles;
+    @apply rounded-full;
+  }
+}
+
+.btn-dark {
+  &.default {
+    @include button-dark-styles;
+  }
+
+  &.pills {
+    @include button-dark-styles;
+    @apply rounded-full;
+  }
+
+  &.outline {
+    @include button-dark-styles;
+    @apply text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800;
+  }
+}
+
+.btn-light {
+  &.default {
+    @include button-light-styles;
+  }
+
+  &.pills {
+    @include button-light-styles;
+    @apply rounded-full;
+  }
+}
+
+.btn-green {
+  &.default {
+    @include button-green-styles;
+    @apply text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300;
+    @apply bg-green-700;
+  }
+
+  &.pills {
+    @include button-green-styles;
+    @apply text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300;
+    @apply bg-green-700 rounded-full text-center;
+  }
+
+  &.outline {
+    @include button-green-styles;
+    @apply text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300;
+    @apply text-green-700 border border-green-700 hover:text-white hover:bg-green-800 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800;
+  }
+}
+
+.btn-red {
+  &.default {
+    @include button-red-styles;
+    @apply hover:bg-red-800 focus:ring-4;
+    @apply bg-red-700 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900;
+  }
+
+  &.pills {
+    @include button-red-styles;
+    @apply hover:bg-red-800 focus:ring-4;
+    @apply bg-red-700 rounded-full text-center focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900;
+  }
+
+  &.outline {
+    @include button-red-styles;
+    @apply hover:bg-red-800 focus:ring-4;
+    @apply text-red-700 border border-red-700 hover:text-white hover:bg-red-800 focus:ring-red-300 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900;
+  }
+}
+
+.btn-yellow {
+  &.default {
+    @include button-yellow-styles;
+    @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300;
+  }
+
+  &.pills {
+    @include button-yellow-styles;
+    @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300;
+    @apply rounded-full text-center;
+  }
+
+  &.outline {
+    @include button-yellow-styles;
+    @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300;
+    @apply rounded-full text-center;
+  }
+}
+
+.btn-purple {
+  &.default {
+    @include button-purple-styles;
+    @apply text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300;
+  }
+
+  &.pills {
+    @include button-purple-styles;
+    @apply text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300;
+    @apply rounded-full text-center;
+  }
+
+  &.outline {
+    @include button-purple-styles;
+    @apply text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300;
+    @apply border border-purple-700 hover:text-white hover:bg-purple-800;
+  }
+}
+
+.btn-social {
+  &.facebook {
+    @apply text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2;
+  }
+
+  &.twitter {
+    @apply text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 me-2 mb-2;
+  }
+
+  &.github {
+    @apply text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2;
+  }
+
+  &.google {
+    @apply text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 me-2 mb-2;
+  }
+
+  &.apple {
+    @apply text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 me-2 mb-2;
+  }
+}

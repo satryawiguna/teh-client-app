@@ -1,0 +1,1 @@
+import{j as e}from"./index-FqGtBFJ_.js";import{m as r}from"./index-p1UXWbwx.js";const s=({t})=>e.jsxs("div",{className:"flex dark:text-white dark:bg-gray-900 text-sm justify-end p-3",children:[`${t("label.version")} TehGroupClient v1.0`," ","©"," ",r().format("YYYY")]});export{s as default};
